@@ -22,7 +22,7 @@ LOCAL_C_INCLUDES += $(FM_HCI_DIR)/fm_hci
 LOCAL_MODULE := fm_helium
 LOCAL_MODULE_TAGS := optional
 
-include $(BUILD_SHARED_LIBRARY)
+#include $(BUILD_SHARED_LIBRARY)
 
 #endif # is-vendor-board-platform
 #endif # BOARD_HAVE_QCOM_FM
