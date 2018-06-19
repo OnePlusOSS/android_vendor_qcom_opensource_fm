@@ -37,6 +37,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "fm_hci_api.h"
 #include <dlfcn.h>
 #include <errno.h>
+#include <pthread.h>
 
 int hci_fm_get_signal_threshold();
 int hci_fm_enable_recv_req();
